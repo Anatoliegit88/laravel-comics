@@ -1,1 +1,58 @@
-@import '~bootstrap/scss/bootstrap'
+@import "~bootstrap/scss/bootstrap";
+
+img {
+    max-width: 100%;
+}
+
+// CONTAINER BLUE
+.container-blue {
+    display: flex;
+    height: 1rem;
+    background-color: blue;
+    color: white;
+    font-size: xx-small;
+    justify-content: flex-end;
+    padding-right: 5rem;
+
+    .small-blue {
+        display: flex;
+        width: 20rem;
+        justify-content: space-around;
+    }
+}
+// CONTAINER NAV
+.container-nav {
+    display: flex;
+    height: 5rem;
+
+    .image {
+        width: 4rem;
+    }
+
+    .ul,
+    li,
+    a {
+        display: flex;
+        margin: 0.5rem;
+        text-decoration: none;
+        font-size: x-small;
+    }
+}
+// CONTANER CARD
+
+.container-card {
+    display: flex;
+    background-color: black;
+
+    .d-flex {
+        width: 100%;
+        width: calc(100% / 6);
+        flex-wrap: wrap;
+    }
+}
+// CONTAINER FOOTER
+
+.container-footer {
+    color: bisque;
+    background-color: black;
+}
