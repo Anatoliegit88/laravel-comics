@@ -55,14 +55,12 @@
       <nav>
         <ul class="ul">
           @foreach ($menuList as $item)
-          <small>
+          
             <li>
               
               <a class="a" href="{{ $item['route_name'] != '' ? route($item['route_name']) : '' }}">{{$item['item_text'] }}</a>
   
             </li>
-
-          </small>
             
           @endforeach
          
@@ -152,6 +150,6 @@
       </div>
     </div>
   </div>
-  
+
 </main>
  
